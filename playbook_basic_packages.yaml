@@ -1,0 +1,23 @@
+- hosts: localhost
+  tasks:
+    - name: Install wget
+      package:
+        name: wget
+        state: present
+    - name: Install tmux
+      package:
+        name: tmux
+        state: present
+    - name: Install git
+      package:
+        name: git
+        state: present
+    - name: Install nano
+      package:
+        name: nano
+        state: present
+    - name: Install vim
+      package:
+        name: vim
+        state: present
+        
